@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Coin
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground Layer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 201825581
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 4196815653
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 3978160057
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 2268360519
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 1100830899
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 218540395
+    locked: 0
+  - name: New Layer 7
+    uniqueID: 2853889751
+    locked: 0
+  - name: New Layer 8
+    uniqueID: 1415706905
+    locked: 0
+  - name: New Layer 9
+    uniqueID: 2925946429
+    locked: 0
+  - name: New Layer 10
+    uniqueID: 3539280049
+    locked: 0
+  m_RenderingLayers:
+  - Default
