@@ -7,7 +7,10 @@ public class Movement : MonoBehaviour
     public Animator animator;
     float horizontalMove = 0f;
     public float runSpeed = 4f;
+   
 
+    [Header("Audio")]
+    public AudioSource jumpSound;
 
     [Header("Component")]
     public Rigidbody2D Rb;
@@ -21,6 +24,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         Rb = GetComponent<Rigidbody2D>();
+        jumpSound = GetComponent<AudioSource>();
         
     }
 
@@ -51,6 +55,7 @@ public class Movement : MonoBehaviour
         {
             Debug.Log("Space Key Pressed");
             Rb.AddForce(Vector2.up * 4, ForceMode2D.Impulse);
+            jumpSound.Play();
         }
 
         // Animation Part
@@ -69,10 +74,23 @@ public class Movement : MonoBehaviour
 
     }
 
-   // private void OnDrawGizmos()
-   // {
+/*    public void OnTriggerEnter2D(UnityEngine.Collider2D collision)
+    {
+        if(collision.CompareTag("Coin"))
+        {
+            coinSound.Play();
+        }
+    }*/
+
+    /*    public void PlayCoinSound()
+        {
+            audioSource.PlayOneShot(coinSound);
+        }*/
+
+    // private void OnDrawGizmos()
+    // {
     //    Gizmos.color = Color.blue;
-   //     Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundLine);
-   // }
+    //     Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundLine);
+    // }
 
 }

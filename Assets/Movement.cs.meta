@@ -1,2 +1,17 @@
 fileFormatVersion: 2
 guid: e6613379563316b43877b0e4fb7bbdf9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - animator: {instanceID: 0}
+  - jumpSound: {instanceID: 0}
+  - coinSound: {instanceID: 0}
+  - jumpClip: {instanceID: 0}
+  - coinClip: {fileID: 8300000, guid: 9a18175152c1a714391894206cdba8b5, type: 3}
+  - Rb: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
